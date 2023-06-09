@@ -8,4 +8,4 @@ It's main CPP code uses `system()` to run VBscript, which supports SaveFile,Open
 [Runoob](https://c.runoob.com)'s `compile2.php` let our VBscript can compile code.
 
 ## How to use?
-See more at HELP document of `CPPeditor 2.0.2`
+See more at HELP document of `CPPeditor`
