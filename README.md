@@ -1,5 +1,5 @@
-## What's CPPeditor 2.0.2?
-`CPPeditor 2.0.2` is a free-source project.  
+## What's CPPeditor?
+`CPPeditor` is a free-source project.  
 You can edit and run code on it.  
 You must run it on Windows,and be connected to the Internet.  
 
