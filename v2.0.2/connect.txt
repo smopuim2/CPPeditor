@@ -1,18 +1,1 @@
-#include <bits/stdc++.h>
-#define ll long long
-#define str string
-#define N 10003
-using namespace std;
-
-int v[N];
-bitset<N> f;
-
-int main(){
-	int n,s=0;
-	cin>>n;
-	for(int i=1;i<=n;i++){ cin>>v[i]; s+=v[i]; }
-	f.set(0);
-	for(int i=1;i<=n;i++) f|=f<<v[i];
-	for(int i=0;i<=s/2;i++) if(f.test(s/2-i) && f.test(s/2+i)){ cout<<i<<"\n"; return 0; }
-}
 
